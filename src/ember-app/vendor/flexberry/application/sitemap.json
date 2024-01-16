@@ -1,0 +1,102 @@
+﻿{
+  "applicationCaption": "Uchet med zueva10",
+  "applicationTitle": "Uchet med zueva10",
+  "items": [
+    {
+      "link": null,
+      "menuName": "индивидуальные-направления",
+      "caption": "Индивидуальные направления",
+      "title": "Индивидуальные направления",
+      "children": [
+        {
+          "link": "i-i-s-uchet-med-zueva10-инд-напр-медосм-l",
+          "menuName": null,
+          "caption": "Инд напр медосм",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "формирование-списка-для-приказа",
+      "caption": "Формирование списка для приказа",
+      "title": "Формирование списка для приказа",
+      "children": [
+        {
+          "link": "i-i-s-uchet-med-zueva10-список-на-медосм-l",
+          "menuName": null,
+          "caption": "Список на медосм",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочная-информация",
+      "caption": "Справочная информация",
+      "title": "Справочная информация",
+      "children": [
+        {
+          "link": "i-i-s-uchet-med-zueva10-приказ-м-з-р-l",
+          "menuName": null,
+          "caption": "Приказ МЗР",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-med-zueva10-класс-вред-фактор-l",
+          "menuName": null,
+          "caption": "Класс вред фактор",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "организации-и-штат",
+      "caption": "Организации и штат",
+      "title": "Организации и штат",
+      "children": [
+        {
+          "link": "i-i-s-uchet-med-zueva10-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-med-zueva10-подразделение-l",
+          "menuName": null,
+          "caption": "Подразделение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-med-zueva10-организации-l",
+          "menuName": null,
+          "caption": "Организации",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-med-zueva10-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-med-zueva10-мед-учреждение-l",
+          "menuName": null,
+          "caption": "Мед учреждение",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

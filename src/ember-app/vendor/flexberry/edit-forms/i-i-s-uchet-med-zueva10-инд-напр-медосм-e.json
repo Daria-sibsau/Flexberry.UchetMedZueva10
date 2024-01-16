@@ -1,0 +1,47 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Организации",
+      "projection": "ОрганизацииL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "МедУчреждение",
+      "projection": "МедУчреждениеL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": null
+    },
+    {
+      "master": "классВредФактор",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ВреднФактПроиз.КлассВредФактор",
+      "projection": "КлассВредФакторL",
+      "detailModelName": "i-i-s-uchet-med-zueva10-вредн-факт-произ"
+    }
+  ],
+  "external": false,
+  "caption": "Инд напр медосм",
+  "name": "IISUchetMedZueva10ИндНапрМедосмE",
+  "className": "ИндНапрМедосмE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-med-zueva10-инд-напр-медосм",
+      "modelProjection": "ИндНапрМедосмE"
+    }
+  ]
+}

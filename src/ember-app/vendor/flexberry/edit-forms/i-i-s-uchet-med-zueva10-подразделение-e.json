@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Подразделение",
+  "name": "IISUchetMedZueva10ПодразделениеE",
+  "className": "ПодразделениеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-med-zueva10-подразделение",
+      "modelProjection": "ПодразделениеE"
+    }
+  ]
+}

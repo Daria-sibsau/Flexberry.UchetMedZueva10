@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Мед учреждение",
+  "name": "IISUchetMedZueva10МедУчреждениеE",
+  "className": "МедУчреждениеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-med-zueva10-мед-учреждение",
+      "modelProjection": "МедУчреждениеE"
+    }
+  ]
+}

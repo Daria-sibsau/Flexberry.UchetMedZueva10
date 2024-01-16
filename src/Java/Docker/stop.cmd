@@ -1,0 +1,1 @@
+docker-compose -p uchetmedzueva10-java down

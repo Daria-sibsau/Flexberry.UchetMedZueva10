@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-uchet-med-zueva10-мед-учреждение-e",
+  "editForm": "i-i-s-uchet-med-zueva10-мед-учреждение-e",
+  "external": false,
+  "caption": "Мед учреждение",
+  "name": "IISUchetMedZueva10МедУчреждениеL",
+  "className": "МедУчреждениеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-med-zueva10-мед-учреждение",
+      "modelProjection": "МедУчреждениеL"
+    }
+  ]
+}

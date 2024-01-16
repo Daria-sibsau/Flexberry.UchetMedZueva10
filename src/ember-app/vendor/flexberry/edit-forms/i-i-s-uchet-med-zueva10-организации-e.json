@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Организации",
+  "name": "IISUchetMedZueva10ОрганизацииE",
+  "className": "ОрганизацииE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-med-zueva10-организации",
+      "modelProjection": "ОрганизацииE"
+    }
+  ]
+}
