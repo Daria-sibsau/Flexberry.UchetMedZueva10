@@ -21,7 +21,7 @@
       "polymorphic": false,
       "presence": true,
       "name": "классВредФактор",
-      "relatedTo": "i-i-s-uchet-med-zueva10-класс-вред-фактор",
+      "relatedTo": "классификатор-вредных-факторов",
       "inverse": null
     },
     {
@@ -49,7 +49,7 @@
         {
           "lookupValue": "Наименование",
           "lookupValueField": "наименование",
-          "relationName": "КлассВредФактор",
+          "relationName": "КлассификаторВредныхФакторов",
           "belongsTo": [],
           "hidden": false,
           "attrs": [
@@ -64,7 +64,7 @@
           "type": "standard",
           "caption": "Вредные факторы",
           "name": "классВредФактор",
-          "relatedTo": "i-i-s-uchet-med-zueva10-класс-вред-фактор",
+          "relatedTo": "классификатор-вредных-факторов",
           "inverse": null
         }
       ],

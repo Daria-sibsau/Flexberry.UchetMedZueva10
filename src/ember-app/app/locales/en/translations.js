@@ -31,6 +31,7 @@ import IISUchetMedZueva10ПриказМЗРModel from './models/i-i-s-uchet-med-
 import IISUchetMedZueva10СотрудникиModel from './models/i-i-s-uchet-med-zueva10-сотрудники';
 import IISUchetMedZueva10СписокНаМедосмModel from './models/i-i-s-uchet-med-zueva10-список-на-медосм';
 import ВредныеФакторыПроизводстваModel from './models/вредные-факторы-производства';
+import КлассификаторВредныхФакторовModel from './models/классификатор-вредных-факторов';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -48,7 +49,8 @@ $.extend(true, translations, {
     'i-i-s-uchet-med-zueva10-приказ-м-з-р': IISUchetMedZueva10ПриказМЗРModel,
     'i-i-s-uchet-med-zueva10-сотрудники': IISUchetMedZueva10СотрудникиModel,
     'i-i-s-uchet-med-zueva10-список-на-медосм': IISUchetMedZueva10СписокНаМедосмModel,
-    'вредные-факторы-производства': ВредныеФакторыПроизводстваModel
+    'вредные-факторы-производства': ВредныеФакторыПроизводстваModel,
+    'классификатор-вредных-факторов': КлассификаторВредныхФакторовModel
   },
 
   'application-name': 'Uchet med zueva10',

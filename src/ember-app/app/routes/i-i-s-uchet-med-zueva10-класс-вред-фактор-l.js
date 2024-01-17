@@ -15,9 +15,9 @@ export default ListFormRoute.extend({
 
     @property modelName
     @type String
-    @default 'i-i-s-uchet-med-zueva10-класс-вред-фактор'
+    @default 'классификатор-вредных-факторов'
   */
-  modelName: 'i-i-s-uchet-med-zueva10-класс-вред-фактор',
+  modelName: 'классификатор-вредных-факторов',
 
   /**
     Defined user settings developer.

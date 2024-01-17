@@ -10,7 +10,7 @@ export let Model = Mixin.create({
   медУчреждение: DS.belongsTo('i-i-s-uchet-med-zueva10-мед-учреждение', { inverse: null, async: false }),
   организации: DS.belongsTo('i-i-s-uchet-med-zueva10-организации', { inverse: null, async: false }),
   сотрудники: DS.belongsTo('i-i-s-uchet-med-zueva10-сотрудники', { inverse: null, async: false }),
-  вреднФактПроиз: DS.hasMany('i-i-s-uchet-med-zueva10-вредн-факт-произ', { inverse: 'индНапрМедосм', async: false })
+  вреднФактПроиз: DS.hasMany('вредные-факторы-производства', { inverse: 'индНапрМедосм', async: false })
 });
 
 export let ValidationRules = {
@@ -78,9 +78,9 @@ export let defineProjections = function (modelClass) {
         наименование: attr('Подразделение', { index: 10 })
       }, { index: -1, hidden: true })
     }, { index: 6, displayMemberPath: 'фИО' }),
-    вреднФактПроиз: hasMany('i-i-s-uchet-med-zueva10-вредн-факт-произ', 'Вредные факторы производства', {
+    вреднФактПроиз: hasMany('вредные-факторы-производства', 'Вредные факторы производства', {
       номер: attr('Номер', { index: 0 }),
-      классВредФактор: belongsTo('i-i-s-uchet-med-zueva10-класс-вред-фактор', 'Вредные факторы', {
+      классВредФактор: belongsTo('классификатор-вредных-факторов', 'Вредные факторы', {
         вредныйФактор: attr('Наименование', { index: 2, hidden: true })
       }, { index: 1, displayMemberPath: 'наименование' })
     })

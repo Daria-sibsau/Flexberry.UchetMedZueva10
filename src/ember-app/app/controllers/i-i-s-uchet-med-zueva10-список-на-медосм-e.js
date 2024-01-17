@@ -19,18 +19,6 @@ export default EditFormController.extend({
           };
           break;
 
-        case 'i-i-s-uchet-med-zueva10-контингент-сотр+классВредФактор':
-          cellComponent.componentProperties = {
-            choose: 'showLookupDialog',
-            remove: 'removeLookupValue',
-            displayAttributeName: 'вредныйФактор',
-            required: true,
-            relationName: 'классВредФактор',
-            projection: 'КлассВредФакторL',
-            autocomplete: true,
-          };
-          break;
-
         case 'i-i-s-uchet-med-zueva10-контингент-сотр+приказМЗР':
           cellComponent.componentProperties = {
             choose: 'showLookupDialog',

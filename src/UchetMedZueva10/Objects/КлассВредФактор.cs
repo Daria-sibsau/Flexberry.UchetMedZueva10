@@ -26,6 +26,7 @@ namespace IIS.UchetMedZueva10
     // *** Start programmer edit section *** (КлассВредФактор CustomAttributes)
 
     // *** End programmer edit section *** (КлассВредФактор CustomAttributes)
+    [PublishName("КлассификаторВредныхФакторов")]
     [AutoAltered()]
     [Caption("Класс вред фактор")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]

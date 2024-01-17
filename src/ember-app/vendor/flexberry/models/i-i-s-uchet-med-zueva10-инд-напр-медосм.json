@@ -51,7 +51,7 @@
   "hasMany": [
     {
       "name": "вреднФактПроиз",
-      "relatedTo": "i-i-s-uchet-med-zueva10-вредн-факт-произ",
+      "relatedTo": "вредные-факторы-производства",
       "inverse": "индНапрМедосм"
     }
   ],
@@ -192,7 +192,7 @@
           "projectionName": "ВреднФактПроизE",
           "caption": "Вредные факторы производства",
           "name": "вреднФактПроиз",
-          "relatedTo": "i-i-s-uchet-med-zueva10-вредн-факт-произ",
+          "relatedTo": "вредные-факторы-производства",
           "inverse": null
         }
       ]

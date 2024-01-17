@@ -15,6 +15,7 @@ moduleForModel('i-i-s-uchet-med-zueva10-сотрудники', 'Unit | Model | i
     'model:i-i-s-uchet-med-zueva10-сотрудники',
     'model:i-i-s-uchet-med-zueva10-список-на-медосм',
     'model:вредные-факторы-производства',
+    'model:классификатор-вредных-факторов',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

@@ -8,7 +8,7 @@
   "attrs": [],
   "projections": [
     {
-      "modelName": "i-i-s-uchet-med-zueva10-класс-вред-фактор",
+      "modelName": "классификатор-вредных-факторов",
       "modelProjection": "КлассВредФакторL"
     }
   ]

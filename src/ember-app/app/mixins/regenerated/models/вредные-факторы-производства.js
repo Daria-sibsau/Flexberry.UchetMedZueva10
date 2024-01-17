@@ -6,7 +6,7 @@ import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes'
 
 export let Model = Mixin.create({
   номер: DS.attr('number'),
-  классВредФактор: DS.belongsTo('i-i-s-uchet-med-zueva10-класс-вред-фактор', { inverse: null, async: false }),
+  классВредФактор: DS.belongsTo('классификатор-вредных-факторов', { inverse: null, async: false }),
   индНапрМедосм: DS.belongsTo('i-i-s-uchet-med-zueva10-инд-напр-медосм', { inverse: 'вреднФактПроиз', async: false })
 });
 
@@ -37,7 +37,7 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ВреднФактПроизE', 'вредные-факторы-производства', {
     номер: attr('Номер', { index: 0 }),
-    классВредФактор: belongsTo('i-i-s-uchet-med-zueva10-класс-вред-фактор', 'Вредные факторы', {
+    классВредФактор: belongsTo('классификатор-вредных-факторов', 'Вредные факторы', {
       вредныйФактор: attr('Наименование', { index: 2, hidden: true })
     }, { index: 1, displayMemberPath: 'наименование' })
   });

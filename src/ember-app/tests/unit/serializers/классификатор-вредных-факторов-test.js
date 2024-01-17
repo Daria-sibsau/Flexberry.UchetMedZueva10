@@ -1,9 +1,9 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-uchet-med-zueva10-должности', 'Unit | Serializer | i-i-s-uchet-med-zueva10-должности', {
+moduleForModel('классификатор-вредных-факторов', 'Unit | Serializer | классификатор-вредных-факторов', {
   // Specify the other units that are required for this test.
   needs: [
-    'serializer:i-i-s-uchet-med-zueva10-должности',
+    'serializer:классификатор-вредных-факторов',
     'service:syncer',
     'transform:file',
     'transform:decimal',

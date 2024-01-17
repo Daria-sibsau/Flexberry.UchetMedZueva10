@@ -10,7 +10,7 @@ export let Model = Mixin.create({
   женщины: DS.attr('number'),
   мужчины: DS.attr('number'),
   периодичность: DS.attr('i-i-s-uchet-med-zueva10-период-мед'),
-  классВредФактор: DS.belongsTo('i-i-s-uchet-med-zueva10-класс-вред-фактор', { inverse: null, async: false }),
+  классВредФактор: DS.belongsTo('классификатор-вредных-факторов', { inverse: null, async: false }),
   подразделение: DS.belongsTo('i-i-s-uchet-med-zueva10-подразделение', { inverse: null, async: false }),
   приказМЗР: DS.belongsTo('i-i-s-uchet-med-zueva10-приказ-м-з-р', { inverse: null, async: false }),
   списокНаМедосм: DS.belongsTo('i-i-s-uchet-med-zueva10-список-на-медосм', { inverse: 'контингентСотр', async: false })
@@ -90,7 +90,7 @@ export let defineProjections = function (modelClass) {
     женщины: attr('Женщины', { index: 3 }),
     до21Года: attr('До21 года', { index: 4 }),
     всего: attr('Всего', { index: 5 }),
-    классВредФактор: belongsTo('i-i-s-uchet-med-zueva10-класс-вред-фактор', 'Вредный фактор', {
+    классВредФактор: belongsTo('классификатор-вредных-факторов', 'Вредный фактор', {
       вредныйФактор: attr('Вредный фактор', { index: 7, hidden: true })
     }, { index: 6, displayMemberPath: 'вредныйФактор' }),
     приказМЗР: belongsTo('i-i-s-uchet-med-zueva10-приказ-м-з-р', 'Приказ МЗР', {

@@ -46,7 +46,7 @@ export let defineProjections = function (modelClass) {
       женщины: attr('Женщины', { index: 3 }),
       до21Года: attr('До21 года', { index: 4 }),
       всего: attr('Всего', { index: 5 }),
-      классВредФактор: belongsTo('i-i-s-uchet-med-zueva10-класс-вред-фактор', 'Вредный фактор', {
+      классВредФактор: belongsTo('классификатор-вредных-факторов', 'Вредный фактор', {
         вредныйФактор: attr('Вредный фактор', { index: 7, hidden: true })
       }, { index: 6, displayMemberPath: 'вредныйФактор' }),
       приказМЗР: belongsTo('i-i-s-uchet-med-zueva10-приказ-м-з-р', 'Приказ МЗР', {
