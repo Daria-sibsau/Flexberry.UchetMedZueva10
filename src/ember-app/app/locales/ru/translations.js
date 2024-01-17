@@ -30,7 +30,7 @@ import IISUchetMedZueva10ПодразделениеModel from './models/i-i-s-uc
 import IISUchetMedZueva10ПриказМЗРModel from './models/i-i-s-uchet-med-zueva10-приказ-м-з-р';
 import IISUchetMedZueva10СотрудникиModel from './models/i-i-s-uchet-med-zueva10-сотрудники';
 import IISUchetMedZueva10СписокНаМедосмModel from './models/i-i-s-uchet-med-zueva10-список-на-медосм';
-import Вредные факторы производстваModel from './models/вредные-факторы-производства';
+import ВредныеФакторыПроизводстваModel from './models/вредные-факторы-производства';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -48,7 +48,7 @@ $.extend(true, translations, {
     'i-i-s-uchet-med-zueva10-приказ-м-з-р': IISUchetMedZueva10ПриказМЗРModel,
     'i-i-s-uchet-med-zueva10-сотрудники': IISUchetMedZueva10СотрудникиModel,
     'i-i-s-uchet-med-zueva10-список-на-медосм': IISUchetMedZueva10СписокНаМедосмModel,
-    'вредные-факторы-производства': Вредные факторы производстваModel
+    'вредные-факторы-производства': ВредныеФакторыПроизводстваModel
   },
 
   'application-name': 'Uchet med zueva10',

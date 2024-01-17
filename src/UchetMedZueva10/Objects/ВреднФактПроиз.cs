@@ -26,7 +26,7 @@ namespace IIS.UchetMedZueva10
     // *** Start programmer edit section *** (ВреднФактПроиз CustomAttributes)
 
     // *** End programmer edit section *** (ВреднФактПроиз CustomAttributes)
-    [PublishName("Вредные факторы производства")]
+    [PublishName("ВредныеФакторыПроизводства")]
     [AutoAltered()]
     [Caption("Вредн факт произ")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
