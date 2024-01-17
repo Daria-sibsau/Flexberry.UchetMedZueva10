@@ -7,7 +7,7 @@ export default EditFormController.extend({
     let cellComponent = this._super(...arguments);
     if (attr.kind === 'belongsTo') {
       switch (`${model.modelName}+${bindingPath}`) {
-        case 'i-i-s-uchet-med-zueva10-вредн-факт-произ+классВредФактор':
+        case 'вредные-факторы-производства+классВредФактор':
           cellComponent.componentProperties = {
             choose: 'showLookupDialog',
             remove: 'removeLookupValue',

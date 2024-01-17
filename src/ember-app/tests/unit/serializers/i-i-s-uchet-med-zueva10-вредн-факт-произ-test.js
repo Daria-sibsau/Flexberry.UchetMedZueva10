@@ -23,6 +23,7 @@ moduleForModel('i-i-s-uchet-med-zueva10-вредн-факт-произ', 'Unit |
     'model:i-i-s-uchet-med-zueva10-приказ-м-з-р',
     'model:i-i-s-uchet-med-zueva10-сотрудники',
     'model:i-i-s-uchet-med-zueva10-список-на-медосм',
+    'model:вредные-факторы-производства',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

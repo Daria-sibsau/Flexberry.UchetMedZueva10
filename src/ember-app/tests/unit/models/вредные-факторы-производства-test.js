@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-uchet-med-zueva10-инд-напр-медосм', 'Unit | Model | i-i-s-uchet-med-zueva10-инд-напр-медосм', {
+moduleForModel('вредные-факторы-производства', 'Unit | Model | вредные-факторы-производства', {
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-uchet-med-zueva10-вредн-факт-произ',

@@ -1,0 +1,77 @@
+﻿{
+  "name": "Вредные факторы производства",
+  "modelName": "вредные-факторы-производства",
+  "className": "ВреднФактПроиз",
+  "nameSpace": "",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "классВредФактор",
+      "relatedTo": "i-i-s-uchet-med-zueva10-класс-вред-фактор",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "индНапрМедосм",
+      "relatedTo": "i-i-s-uchet-med-zueva10-инд-напр-медосм",
+      "inverse": "вреднФактПроиз"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВреднФактПроизE",
+      "modelName": "вредные-факторы-производства",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "КлассВредФактор",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "вредныйФактор",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Вредные факторы",
+          "name": "классВредФактор",
+          "relatedTo": "i-i-s-uchet-med-zueva10-класс-вред-фактор",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
