@@ -11,7 +11,7 @@
         {
           "link": "i-i-s-uchet-med-zueva10-инд-напр-медосм-l",
           "menuName": null,
-          "caption": "Инд напр медосм",
+          "caption": "Индивидуальное направление на медосмотр",
           "title": "",
           "children": null
         }
@@ -26,7 +26,7 @@
         {
           "link": "i-i-s-uchet-med-zueva10-список-на-медосм-l",
           "menuName": null,
-          "caption": "Список на медосм",
+          "caption": "Список на медосмотр",
           "title": "",
           "children": null
         }
@@ -48,7 +48,7 @@
         {
           "link": "i-i-s-uchet-med-zueva10-класс-вред-фактор-l",
           "menuName": null,
-          "caption": "Класс вред фактор",
+          "caption": "Классификатор вредных факторов",
           "title": "",
           "children": null
         }
@@ -91,7 +91,7 @@
         {
           "link": "i-i-s-uchet-med-zueva10-мед-учреждение-l",
           "menuName": null,
-          "caption": "Мед учреждение",
+          "caption": "Медицинское учреждение",
           "title": "",
           "children": null
         }
