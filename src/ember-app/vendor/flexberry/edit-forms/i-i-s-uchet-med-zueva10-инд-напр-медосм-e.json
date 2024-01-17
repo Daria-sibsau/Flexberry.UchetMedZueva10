@@ -30,7 +30,7 @@
       "required": true,
       "relationName": "ВреднФактПроиз.КлассВредФактор",
       "projection": "КлассВредФакторL",
-      "detailModelName": "вредные-факторы-производства"
+      "detailModelName": "i-i-s-uchet-med-zueva10-вредн-факт-произ"
     }
   ],
   "external": false,
