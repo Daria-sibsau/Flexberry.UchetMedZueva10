@@ -84,14 +84,14 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "Подразделение",
               "hidden": false,
               "index": 1
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Наименование",
+          "caption": "Подразделение",
           "name": "подразделение",
           "relatedTo": "i-i-s-uchet-med-zueva10-подразделение",
           "inverse": null

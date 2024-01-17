@@ -38,7 +38,7 @@ namespace IIS.UchetMedZueva10
     [MasterViewDefineAttribute("КлассВредФакторE", "Подразделение", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     [View("КлассВредФакторL", new string[] {
             "ВредныйФактор as \'Вредный фактор\'",
-            "Подразделение.Наименование as \'Наименование\'"})]
+            "Подразделение.Наименование as \'Подразделение\'"})]
     public class КлассВредФактор : ICSSoft.STORMNET.DataObject
     {
         

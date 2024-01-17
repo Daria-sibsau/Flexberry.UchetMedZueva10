@@ -35,8 +35,8 @@ export let defineProjections = function (modelClass) {
 
   modelClass.defineProjection('КлассВредФакторL', 'классификатор-вредных-факторов', {
     вредныйФактор: attr('Вредный фактор', { index: 0 }),
-    подразделение: belongsTo('i-i-s-uchet-med-zueva10-подразделение', 'Наименование', {
-      наименование: attr('Наименование', { index: 1 })
+    подразделение: belongsTo('i-i-s-uchet-med-zueva10-подразделение', 'Подразделение', {
+      наименование: attr('Подразделение', { index: 1 })
     }, { index: -1, hidden: true })
   });
 };
