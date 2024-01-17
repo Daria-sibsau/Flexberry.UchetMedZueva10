@@ -28,6 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-uchet-med-zueva10-инд-напр-медосм-l',
             caption: i18n.t('forms.application.sitemap.индивидуальные-направления.i-i-s-uchet-med-zueva10-инд-напр-медосм-l.caption'),
             title: i18n.t('forms.application.sitemap.индивидуальные-направления.i-i-s-uchet-med-zueva10-инд-напр-медосм-l.title'),
+            icon: 'building',
             children: null
           }]
         }, {
@@ -39,7 +40,7 @@ export default Controller.extend({
             link: 'i-i-s-uchet-med-zueva10-список-на-медосм-l',
             caption: i18n.t('forms.application.sitemap.формирование-списка-для-приказа.i-i-s-uchet-med-zueva10-список-на-медосм-l.caption'),
             title: i18n.t('forms.application.sitemap.формирование-списка-для-приказа.i-i-s-uchet-med-zueva10-список-на-медосм-l.title'),
-            icon: 'building',
+            icon: 'calendar',
             children: null
           }]
         }, {
@@ -51,7 +52,7 @@ export default Controller.extend({
             link: 'i-i-s-uchet-med-zueva10-приказ-м-з-р-l',
             caption: i18n.t('forms.application.sitemap.справочная-информация.i-i-s-uchet-med-zueva10-приказ-м-з-р-l.caption'),
             title: i18n.t('forms.application.sitemap.справочная-информация.i-i-s-uchet-med-zueva10-приказ-м-з-р-l.title'),
-            icon: 'chart line',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-uchet-med-zueva10-класс-вред-фактор-l',
@@ -69,31 +70,31 @@ export default Controller.extend({
             link: 'i-i-s-uchet-med-zueva10-должности-l',
             caption: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-uchet-med-zueva10-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-uchet-med-zueva10-должности-l.title'),
-            icon: 'folder',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-uchet-med-zueva10-подразделение-l',
             caption: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-uchet-med-zueva10-подразделение-l.caption'),
             title: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-uchet-med-zueva10-подразделение-l.title'),
-            icon: 'folder',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-uchet-med-zueva10-организации-l',
             caption: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-uchet-med-zueva10-организации-l.caption'),
             title: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-uchet-med-zueva10-организации-l.title'),
-            icon: 'chart bar',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-uchet-med-zueva10-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-uchet-med-zueva10-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-uchet-med-zueva10-сотрудники-l.title'),
-            icon: 'folder',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-uchet-med-zueva10-мед-учреждение-l',
             caption: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-uchet-med-zueva10-мед-учреждение-l.caption'),
             title: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-uchet-med-zueva10-мед-учреждение-l.title'),
-            icon: 'phone',
+            icon: 'briefcase',
             children: null
           }]
         }
